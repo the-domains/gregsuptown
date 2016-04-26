@@ -1,28 +1,40 @@
-name: GregsUptown
-favicon: null
-layout_spectrum: 0.38217095541767776
-typography_spectrum: 0.32454891386441886
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.5466411837842315
-  lightness: 0.8436789296101779
-  saturation: 0.5872957448009402
-  rhythmicContrast: 0.17055081785656512
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7132617
+  brandStrength: 0.5466411837842315
+  lightness: 0.8046595
+  brandColors:
+    - '#0F0F0F'
+    - '#FFFFFF'
+    - '#D4D3D1'
+    - '#8E8B84'
+    - '#5A5552'
+  rhythmicContrast: 0.3709677
+typography_spectrum: 0.8673835
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.8064516
+favicon: null
+name: GregsUptown
